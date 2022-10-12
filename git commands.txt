@@ -17,6 +17,7 @@ $git status
 2. Staged
 3. Unmodified
 4. Modified
+(note: Refer to snapshot of Git states.)
 
 //Command to send a file in staged state
 $git add <file_name>
@@ -24,7 +25,20 @@ $git add <file_name>
 //Command to send all files in staged state
 $git add -A
 
-//Commit merges staged file to master branch and adds current file structure to the history of project
-$git commit
+(**Note: Commit merges staged file to master branch and adds current file structure to the history of project.)
 
-//
+//commit using Vim editor
+$git commit
+(note: This command will open Vim editor, where we are required to set a message for the current commit.)
+
+//commit directly
+$git commit -m <"message">
+
+//Command to recover last committed stage
+$git checkout <filename>
+
+//Command to recover all files as last committed stage
+$git checkout -f
+
+//Command to see past commits
+$git log -p <no. of commits>
