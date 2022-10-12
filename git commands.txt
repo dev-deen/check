@@ -1,0 +1,30 @@
+*Git Commands:
+
+//command to set user name
+$git config --global user.name <name>
+
+//command to set user email
+$git config --global user.email <email@mail.com>
+
+//command to initialize git repository
+$git init
+
+//command to get status of git repository
+$git status
+
+//4 stages of a file in Git repository
+1. Untracked
+2. Staged
+3. Unmodified
+4. Modified
+
+//Command to send a file in staged state
+$git add <file_name>
+
+//Command to send all files in staged state
+$git add -A
+
+//Commit merges staged file to master branch and adds current file structure to the history of project
+$git commit
+
+//

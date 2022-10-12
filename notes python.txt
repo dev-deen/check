@@ -1,0 +1,54 @@
+*List
+
+. lists are immutable
+
+.Copying a list and Taking a temporary Copying are two different things
+	Copying a list --> list1 = list2
+	Taking a temporary copy --> list1 = list2[:]
+note: In the first case list1 points to the memory address of list2
+
+.List functions
+1.append
+2.extend - adds another list 
+3.insert
+4.remove
+5.pop - removes last element if index is not mentioned
+6.index - returns first index of element mentioned in list
+
+.List unpacking
+a,b,c, *other = [1, 2, 3, 4, 5, 6, 7,]
+a = 1
+b = 2
+c = 3
+other = [4, 5, 6, 7]
+
+.Dictionary
+dictionary = {
+	'a':1,
+	'b':2,
+	'c':3
+}
+print(dictionary['a'][1])
+
+*Dictionary keys are immutable like int string boolean
+
+.Dictionary function
+get() - pass key and/or default value (in case key is not present in dictonary)
+
+.How to check if key/value/items are present or not in dictionary
+	print( "name" in dictionary.keys() )
+
+.Tupple - immutable list
+	syntax- tup = (1, 2, 3, 4)
+
+.Set - unordered collection of unique elements
+
+>set functions
+.difference()
+.discard()
+.differenc_update()
+.intersection()
+.isdisjoint()
+.issubset()
+.issuperset()
+.union()

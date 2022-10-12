@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            display: inline-block;
+            float: left;
+            margin: 20px 10px;
+            border: 2px solid red;
+        }
+        .right{
+            display: inline-block;
+            float: right;
+            margin: 20px 10px;
+            border: 2px solid blue;
+        }
+        .mid{
+            display: inline-block;
+            width: 50%;
+            border: 2px solid green;
+            box-sizing: border-box;
+            margin: auto;
+
+        }
+        .navbar{
+            
+            margin: auto;
+        }
+        .navbar li{
+            display: inline-block;
+            float: left;
+            width: 25%;
+            border: 2px solid black;
+        }
+        .navbar li a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            margin: 2px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">I am left</div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Admission Form</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">I am right</div>
+    </header>
+</body>
+</html>
